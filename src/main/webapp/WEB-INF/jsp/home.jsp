@@ -22,13 +22,15 @@
     
 <div class="login-form">
 <div class="sign-in-htm">
+
+<form action="/userAunthentication" method="POST" >
 <div class="group">
 <label for="user" class="label">Username</label>
-<input id="user" type="text" class="input">
+<input id="user" name="user" type="text" class="input">
 </div>
 <div class="group">
 <label for="pass" class="label">Password</label>
-<input id="pass" type="password" class="input" data-type="password">
+<input id="pass" name="pass" type="password" class="input" data-type="password">
 </div>
 <div class="group">
 <input id="check" type="checkbox" class="check" checked>
@@ -37,6 +39,7 @@
 <div class="group">
 <input type="submit" class="button" value="Sign In">
 </div>
+
 <div class="hr"></div>
 <div class="foot-lnk">
 <a href="#forgot">Forgot Password?</a>
@@ -80,14 +83,12 @@
 </div>
 <div class="hr"></div>
 <div class="foot-lnk">
-<label for="tab-1">Already Member?</a>
+<label for="tab-1">Already Registered?</a>
 </div>
 </div>
 </div>
 </div>
 </div>
-
-
-
+</form>
 </body>
 </html>
