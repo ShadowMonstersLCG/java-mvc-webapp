@@ -25,7 +25,7 @@
 
 <form action="/userAunthentication" method="POST" >
 <div class="group">
-<label for="user" class="label">Username</label>
+<label for="user" class="label">User Email</label>
 <input id="user" name="user" type="text" class="input">
 </div>
 <div class="group">
@@ -42,45 +42,13 @@
 
 <div class="hr"></div>
 <div class="foot-lnk">
+<h4><p>Help?<a href= "/chat" target="_blank" >Click to chat</a></p></h4>
 <a href="#forgot">Forgot Password?</a>
 </div>
 </div>
 <div class="sign-up-htm">
-<div class="group">
-<label for="user" class="label">Username</label>
-<input id="user" type="text" class="input">
-</div>
-<div class="group">
-<label for="pass" class="label">Password</label>
-<input id="pass" type="password" class="input" data-type="password">
-</div>
-<div class="group">
-<label for="pass" class="label">Repeat Password</label>
-<input id="pass" type="password" class="input" data-type="password">
-</div>
-<div class="group">
-<label for="pass" class="label">Email Address</label>
-<input id="pass" type="text" class="input"> 
-</div>
-        <div class="group">
-<label for="pass" class="label">Subject matter expertise</label>
-<input id="pass" type="text" class="input"> 
-</div>
-        <div class="group">
-<label for="pass" class="label">Affliations to organization</label>
-<input id="pass" type="text" class="input"> 
-</div>
-        
-        
-        <input id="tab-2" type="radio" name="tab-panel" class="check"><label for="tab-2" class="tab">Campaign manager</label>
-        <br>
-        <input id="tab-2" type="radio" name="tab-panel" class="check"><label for="tab-2" class="tab">Researcher</label>
-        
-        
-        
-<div class="group">
-<input type="submit" class="button" value="Sign Up">
-</div>
+
+<h2><p>New Researcher to Monster Match ?<a href= "https://www.w3schools.com/html/html_links.asp"> Register </a></p></h2>
 <div class="hr"></div>
 <div class="foot-lnk">
 <label for="tab-1">Already Registered?</a>
