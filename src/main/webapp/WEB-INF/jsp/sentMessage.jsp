@@ -4,16 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>ShadowMonstersDashboard</title>
+<title>ShadowMonstersRegister</title>
 <!-- <link rel="stylesheet" href="login.css"> -->
 <style><%@include file="/WEB-INF/css/login.css"%></style>
-
 </head>
 <body>
-<H1>Dashboard Page</H1>
-<%
-    String redirectURL = "http://ec2-34-205-61-100.compute-1.amazonaws.com/Approvalweb ";
-    response.sendRedirect(redirectURL);
-%>
+<!-- h4><p>Not registered ,please register to access <a href= "/java-mvc-webapp/shadow-monsters" target="_blank" >Click to register</a></p></h4> -->
+<h4><p>Message notification has been sent to Researchers</a></p>
+
 </body>
 </html>

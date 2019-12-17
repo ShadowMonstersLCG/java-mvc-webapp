@@ -24,6 +24,7 @@
 <div class="sign-in-htm">
 
 <form action="/userAunthentication" method="POST" >
+<!-- <form action="/userAunthentication" method="POST" > -->
 <div class="group">
 <label for="user" class="label">User Email</label>
 <input id="user" name="user" type="text" class="input">
@@ -43,12 +44,13 @@
 <div class="hr"></div>
 <div class="foot-lnk">
 <h4><p>Help?<a href= "/chat" target="_blank" >Click to chat</a></p></h4>
+<!-- <h4><p>Help?<a href= "/chat" target="_blank" >Click to chat</a></p></h4> -->
 <a href="#forgot">Forgot Password?</a>
 </div>
 </div>
 <div class="sign-up-htm">
 
-<h2><p>New Researcher to Monster Match ?<a href= "https://www.w3schools.com/html/html_links.asp"> Register </a></p></h2>
+<h2><p>New Researcher to Monster Match ?<a href= "http://ec2-34-205-61-100.compute-1.amazonaws.com/ResearcherApplication/Register.aspx"> Register </a></p></h2>
 <div class="hr"></div>
 <div class="foot-lnk">
 <label for="tab-1">Already Registered?</a>

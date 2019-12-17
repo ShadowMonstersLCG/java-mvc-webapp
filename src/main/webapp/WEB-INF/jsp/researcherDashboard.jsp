@@ -7,8 +7,13 @@
 <title>ShadowMonstersDashboard</title>
 <!-- <link rel="stylesheet" href="login.css"> -->
 <style><%@include file="/WEB-INF/css/login.css"%></style>
+
 </head>
 <body>
-<H1>Registration Page</H1>
+<H1>Researcher Dashboard Page</H1>
+<%
+    String redirectURL = "http://ec2-34-205-61-100.compute-1.amazonaws.com/ResearcherApplication/ResearcherDashboard.aspx?Id=21";
+    response.sendRedirect(redirectURL);
+%>
 </body>
 </html>
